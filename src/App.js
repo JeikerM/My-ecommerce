@@ -1,11 +1,16 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import './App.css';
+import  {ItemListContainer} from "./components/ItemListContainer/ItemListContainer";
+import {NavBar} from "./components/NavBar/NavBar"
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       <h1> gola </h1>
+      <header>
+      <NavBar/>
+       <ItemListContainer greeting ="Hola mundo"/>
       </header>
     </div>
   );

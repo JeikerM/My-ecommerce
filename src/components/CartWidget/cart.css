@@ -1,0 +1,8 @@
+.cartstyle{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.cartSize{
+    font-size: 50px;
+}
