@@ -1,4 +1,9 @@
 .menuProvisorio{
     display: flex;
     justify-content: space-around;
+    background-color: aqua;
+}
+
+.menuProvisorio a{
+    text-decoration: none;
 }
