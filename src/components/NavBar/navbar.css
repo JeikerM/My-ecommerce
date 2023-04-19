@@ -2,8 +2,14 @@
     display: flex;
     justify-content: space-around;
     background-color: aqua;
+    align-items: center
 }
 
 .menuProvisorio a{
     text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+.menuProvisorio a:hover{
+    color: crimson;
 }

@@ -49,7 +49,8 @@ export const Pika = () =>{
     }
     return(
         <div>
-        {!pokemon ?<h3>Cargando...</h3>:
+        {!pokemon ?
+        <h3>Cargando...</h3>:
         <>
             <img src={pokemon.img} alt='Img'/>
             <h3>{pokemon.nombre}</h3>

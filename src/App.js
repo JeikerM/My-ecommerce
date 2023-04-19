@@ -5,7 +5,7 @@ import  {ItemListContainer} from "./components/ItemListContainer/ItemListContain
 import {NavBar} from "./components/NavBar/NavBar"
 import {ItemCount} from "./components/ItemCount/ItemCount"
 import {Pika} from './components/Pika/Pika';
-/* import {ItemDetailContainer} from './components/ItemDetailContainer/ItemDetailContainer' */
+import {ItemDetailContainer} from './components/ItemDetailContainer/ItemDetailContainer'
 import { 
   BrowserRouter as Router, 
   Routes,
@@ -22,7 +22,7 @@ function App() {
         <Routes>
         <Route path='/' element={<ItemListContainer/>} />
         <Route path='/productos/:categoryId' element={<ItemListContainer/>} />
-       {/*  <Route path='/detail/:itemId' element={<ItemDetailContainer/>} /> */}
+       <Route path='/detail/:itemId' element={<ItemDetailContainer/>} />
         <Route path='/counter' element={<ItemCount/>} />
         <Route path='/pika' element={<Pika/>} />
         <Route path='*' element={<Navigate to='/'/>} />
